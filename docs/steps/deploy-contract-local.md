@@ -2,7 +2,7 @@
 
 Create a file named `scripts/deploy.ts` with following:
 
-```ts
+```typescript
 import hre from "hardhat";
 import fs from "fs";
 
@@ -32,7 +32,7 @@ main()
 
 Run `npx hardhat node` to start a local network, and you should get something like this:
 
-```bash
+```
 Started HTTP and WebSocket JSON-RPC server at http://127.0.0.1:8545/
 
 Accounts

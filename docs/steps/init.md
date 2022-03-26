@@ -19,7 +19,7 @@ npx tailwindcss init -p
 
 Modify `tailwind.config.js` to:
 
-```js
+```javascript
 module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -59,7 +59,7 @@ npx hardhat
 
 You will see something like this:
 
-```bash
+```
 888    888                      888 888               888
 888    888                      888 888               888
 888    888                      888 888               888
@@ -81,7 +81,7 @@ You will see something like this:
 
 Choose `Create a basic sample project`, use default project root, choose `n` for .gitignore and you will get this:
 
-```bash
+```
 👷 Welcome to Hardhat v2.9.2 👷‍
 
 ✔ What do you want to do? · Create a basic sample project
@@ -115,7 +115,7 @@ mv hardhat.config.js hardhat.config.ts
 
 Also rewrite the content of `hardhat.config.ts` with the following: 
 
-```ts
+```typescript
 import { task } from "hardhat/config";
 import "@nomiclabs/hardhat-waffle";
 

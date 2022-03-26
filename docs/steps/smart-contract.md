@@ -13,7 +13,7 @@ Copy the following code into `contracts/Token.sol`
 
 > Notice that the solidity version here is `^0.8.0`, but you should change this according to the solidity version configured in `hardhat.config.ts`
 
-```js
+```solidity
 // Solidity files have to start with this pragma.
 // It will be used by the Solidity compiler to validate its version.
 pragma solidity ^0.8.0;
@@ -94,7 +94,7 @@ Copy the following code into `test/Token.ts`
 > we rewrite test with TypeScript
 > and you can find a full version of test in [`test/Token-full.ts`](https://github.com/zhuojg/next-dapp-tutorial/blob/main/test/Token-full.ts)
 
-```ts
+```typescript
 import { expect } from "chai";
 import { ethers } from "hardhat";
 
@@ -114,7 +114,7 @@ describe("Token contract", () => {
 
 Run test with `npx hardhat test`, you should get this:  
 
-```bash
+```
   Token contract
     ✔ Deployment should assign the total supply of tokens to the owner (345ms)
 
