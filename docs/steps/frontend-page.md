@@ -1,3 +1,14 @@
+# Write Frontend Page  
+
+Install [`Web3Modal`](https://github.com/Web3Modal/web3modal) to connect our page to smart contract:  
+
+```bash
+pnpm install web3modal
+```
+
+Paste the following code into `pages/index.tsx`, and the inline comments explain how the code works:
+
+```tsx
 import type { InferGetStaticPropsType } from "next";
 import Web3Modal from "web3modal";
 import Token from "../artifacts/contracts/Token.sol/Token.json";
@@ -109,3 +120,6 @@ const Home = ({
 };
 
 export default Home;
+```
+
+Now let's start deploying smart contract on local network.
