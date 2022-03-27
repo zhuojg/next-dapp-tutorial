@@ -30,7 +30,7 @@ main()
 
 ```
 
-Run `npx hardhat node` to start a local network, and you should get something like this:
+Run `pnpm hardhat node` to start a local network, and you should get something like this:
 
 ```
 Started HTTP and WebSocket JSON-RPC server at http://127.0.0.1:8545/
@@ -50,7 +50,7 @@ Private Key: 0x59c6995e998f97a5a0044966f0945389dc9e86dae88c7a8412f4603b6b78690d
 ...
 ```
 
-Run `npx hardhat run scripts/deploy.ts --network localhost` to deploy smart contract, and you should see the address of smart contract.  
+Run `pnpm hardhat run scripts/deploy.ts --network localhost` to deploy smart contract, and you should see the address of smart contract.  
 
 Now start the next page by `pnpm dev`, open `http://localhost:3000` in your browser.  
 
@@ -58,7 +58,7 @@ If everything goes right, you can see a page with basic token information.
 
 Before click `get` button to see the balance of current account, you need to add a test account to your wallet.  
 
-Try to pick a test account from the output of `npx hardhat node`, and import it into your wallet with private key.  
+Try to pick a test account from the output of `pnpm hardhat node`, and import it into your wallet with private key.  
 
 <img width="371" alt="image" src="https://user-images.githubusercontent.com/24386525/160231803-68dd1447-7da8-46f4-b9ff-da32ac67ce68.png">
 

@@ -54,7 +54,7 @@ Initialize with `Hardhat`
 
 ```bash
 rm README.md # delete README.md to avoid conflicting with hardhat
-npx hardhat
+pnpm hardhat
 ```
 
 You will see something like this:

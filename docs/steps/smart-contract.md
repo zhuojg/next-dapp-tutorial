@@ -79,7 +79,7 @@ contract Token {
 Compile contract
 
 ```bash
-npx hardhat compile
+pnpm hardhat compile
 ```
 
 Create a file named `Token.ts` in `./test`
@@ -112,7 +112,7 @@ describe("Token contract", () => {
 });
 ```
 
-Run test with `npx hardhat test`, you should get this:  
+Run test with `pnpm hardhat test`, you should get this:  
 
 ```
   Token contract
