@@ -3,7 +3,8 @@
 ## Run `create-next-app`
 
 ```bash
-npx create-next-app my-project --typescript
+pnpm exec create-next-app my-project --typescript
+cd my-project
 ```
 
 ## Add Tailwind CSS  
@@ -14,7 +15,7 @@ Install `Tailwind CSS`
 
 ```bash
 pnpm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init -p
+pnpm tailwindcss init -p
 ```
 
 Modify `tailwind.config.js` to:
